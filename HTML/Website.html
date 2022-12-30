@@ -1,0 +1,234 @@
+<html>
+ 
+<head>
+    <title>FootBall Players</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-color: green;
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: blue;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "logo.png">
+            </div>
+            <li><a href="#web">Lionel Messi</a></li>
+            <li><a href="#program">Cristanio Ronaldo</a></li>
+            <li><a href="#course">Neymar</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big">Lionel Messi</h1>
+                <p class="text-small">
+                    Born and raised in central Argentina, Messi relocated to Spain at the age of 13 to join Barcelona, for whom he made his competitive debut aged 17 in October 2004.He established himself as an integral player for the club within the next three years, and in his first uninterrupted season in 2008–09 he helped Barcelona achieve the first treble in Spanish football.
+                </p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big">
+                    Cristanio Ronaldo
+                </h1>
+                <p class="text-small">
+                    Ronaldo began his senior career with Sporting CP, before signing with Manchester United in 2003,  the Champions League and the FIFA Club World Cup; at age 23, he won his first Ballon d'Or. Ronaldo was the subject of the then-most expensive association football transfer when he signed for Real Madrid in 2009 in a transfer worth €94 million (£80 million). There he became a key contributor and formed an attacking trio with Karim Benzema and Gareth Bale, dubbed BBC, they were integral to the team win four Champions League wins from 2014 to 2018, including La Décima.
+                </p>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Neymar</h1>
+            <p class="sectionSubTag text-small">
+                Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar, is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. A prolific goalscorer and renowned playmaker, he is regarded as one of the best players in the world.[3] Neymar has scored at least 100 goals for three different clubs, making him one of three players to achieve this.Neymar came into prominence at Santos, where he made his professional debut aged 17. He helped the club win two successive Campeonato Paulista championships, a Copa do Brasil, and the 2011 Copa Libertadores; the latter being Santos' first since 1963
+            </p>
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "C:\Users\hi\Downloads\Image1.jpg" alt="laptop image">
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            FOOTER
+        </p> 
+    </footer>
+</body>
+ 
+</html>
